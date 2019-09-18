@@ -13,4 +13,6 @@ jobs:
       with:
         submodules: recursive
     - name: Run Test cases
-      run: ./t/run.sh
+      run: |
+        chmod 777 t/run.sh
+        ./t/run.sh
