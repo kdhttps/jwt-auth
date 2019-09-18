@@ -13,4 +13,4 @@ jobs:
       with:
         submodules: recursive
     - name: Run Test cases
-      run: ./t/run.sh
+      run: sudo ./t/run.sh
