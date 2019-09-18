@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-16.04
  
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v1
       with:
         submodules: recursive
     - name: Run Test cases
-      run: sudo ./t/run.sh
+      run: ./t/run.sh
