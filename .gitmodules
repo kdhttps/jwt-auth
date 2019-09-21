@@ -4,3 +4,6 @@
 [submodule "third-party/lua-resty-jwt"]
 	path = third-party/lua-resty-jwt
 	url = https://github.com/cdbattags/lua-resty-jwt.git
+[submodule "third-party/lua-resty-hmac"]
+	path = third-party/lua-resty-hmac
+	url = https://github.com/jkeys089/lua-resty-hmac.git
