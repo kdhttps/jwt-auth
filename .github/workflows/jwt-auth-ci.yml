@@ -14,5 +14,6 @@ jobs:
         submodules: recursive
     - name: Run Test cases
       run: |
+        docker ps -a
         chmod 777 t/run.sh
         ./t/run.sh
