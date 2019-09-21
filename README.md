@@ -97,3 +97,5 @@ curl -i -sS -X GET --url http://localhost:8000/v1/user --header 'Host: backend.c
 # Test
 
 [Test cases](./t)
+
+# Github CI
